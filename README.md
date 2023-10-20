@@ -31,6 +31,15 @@ Follow these steps to get the project up and running on your local machine:
    git clone https://github.com/your-username/tax-calculator.git
    cd tax-calculator
 
+   ## Installation
+
+To get started with this project, follow these steps:
+
+1. Install the required dependencies using npm:
+
+```bash
+npm install
+
 
 ## Usage
 
