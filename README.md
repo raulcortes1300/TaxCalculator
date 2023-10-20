@@ -1,35 +1,32 @@
-# Next.js + Jest
+# Tax Calculator
 
-This example shows how to configure Jest to work with Next.js.
+A simple web application to calculate income tax based on provided tax rates and income.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+## Introduction
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+The Tax Calculator is a web application that allows users to calculate their income tax based on their annual income and the applicable tax rates for a specific tax year. It provides a user-friendly interface for inputting income and selecting the tax year, and it displays the calculated tax amount, taxes owed per band, and the effective tax rate.
 
-## Deploy your own
+## Features
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
+- Input annual income and select the tax year.
+- Calculate total income tax based on marginal tax rates.
+- Display the calculated tax amount.
+- Show taxes owed per tax band.
+- Present the effective tax rate.
 
-## How to Use
+## Technologies Used
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Next.js](https://nextjs.org/): A React framework for server-rendered applications.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework.
+- [Jest](https://jestjs.io/): A JavaScript testing framework.
 
-In your terminal, run the following command:
+## Getting Started
 
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
+Follow these steps to get the project up and running on your local machine:
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+1. **Clone the repository**:
 
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Running Tests
-
-```bash
-npm test
-```
+   ```bash
+   git clone https://github.com/your-username/tax-calculator.git
+   cd tax-calculator
